@@ -1,0 +1,3 @@
+/* */
+function toHex(t,e,r,n){t=t.buffer||t;for(var i="",s=t.byteLength||t.length,u=0;s>u;u++){var o=4294967292&u|(n?3-u%4:u%4);i=i+(t[o]>>4).toString(16)+(15&t[o]).toString(16)+(e-1==u%e?" ":"")+(r-1==u%r?"\n":"")}return i}function reverseByteOrder(t){return t<<24&4278190080|t<<8&16711680|t>>8&65280|t>>24&255}var hexpp=module.exports=function(t,e){return e=e||{},e.groups=e.groups||4,e.wrap=e.wrap||16,toHex(t,e.groups,e.wrap,e.bigendian,e.ints)};hexpp.defaults=function(t){return function(e){return hexpp(e,t)}};
+//# sourceMappingURL=hexpp.js.map

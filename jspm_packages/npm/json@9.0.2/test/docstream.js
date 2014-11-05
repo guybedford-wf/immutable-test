@@ -1,0 +1,3 @@
+/* */
+!function(t){function e(t,e){return void 0===e&&(e=t,t=0),Math.floor(Math.random()*(e-t+1))+t}var r=Number(t.argv[2]);isNaN(r)&&(r=5);var n=Number(t.argv[3]);isNaN(n)&&(n=1e3);var i=void 0!==t.argv[4],s="",o=setInterval(function(){r--;var n=s+JSON.stringify({foo:"bar"})+"\n",u=n.length;0>=r?clearInterval(o):i&&(u=e(0,n.length)),t.stdout.write(n.slice(0,u)),s=n.slice(u)},n)}(require("github:jspm/nodelibs@0.0.5/process"));
+//# sourceMappingURL=docstream.js.map

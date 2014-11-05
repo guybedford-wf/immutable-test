@@ -1,0 +1,1 @@
+export * from "github:systemjs/plugin-json@0.1.0/json";

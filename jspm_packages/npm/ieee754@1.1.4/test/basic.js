@@ -1,0 +1,3 @@
+/* */
+!function(t){var e=require("../index"),r=require("tape"),n=1e-5;r("read float",function(r){var i=new t(4);i.writeFloatLE(42.42,0);var u=e.read(i,0,!0,23,4);r.ok(Math.abs(u-42.42)<n),r.end()}),r("write float",function(r){var i=new t(4);e.write(i,42.42,0,!0,23,4);var u=i.readFloatLE(0);r.ok(Math.abs(u-42.42)<n),r.end()})}(require("github:jspm/nodelibs@0.0.5/buffer").Buffer);
+//# sourceMappingURL=basic.js.map

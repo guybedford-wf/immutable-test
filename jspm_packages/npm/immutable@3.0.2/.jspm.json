@@ -1,0 +1,84 @@
+{
+  "name": "immutable",
+  "version": "3.0.2",
+  "description": "Immutable Data Collections",
+  "homepage": "https://github.com/facebook/immutable-js",
+  "author": {
+    "name": "Lee Byron",
+    "url": "https://github.com/leebyron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/facebook/immutable-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/immutable-js/issues"
+  },
+  "main": "dist/immutable.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "resources/jestPreprocessor.js",
+    "testFileExtensions": {
+      "0": "js",
+      "1": "ts"
+    },
+    "persistModuleRegistryBetweenSpecs": true
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-jest": "^0.1.0",
+    "react-tools": "^0.11.1",
+    "ts-compiler": "^2.0.0",
+    "grunt-release": "^0.7.0",
+    "traceur": "0.0.55",
+    "smash": "0.0.12",
+    "uglify-js": "^2.4.15",
+    "jasmine-check": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": {
+    "0": "immutable",
+    "1": "persistent",
+    "2": "lazy",
+    "3": "data",
+    "4": "datastructure",
+    "5": "functional",
+    "6": "collection",
+    "7": "stateless",
+    "8": "sequence",
+    "9": "iteration"
+  },
+  "license": "BSD",
+  "_id": "immutable@3.0.2",
+  "dist": {
+    "shasum": "912a831a7ef98945cceaacd7540abcba32621f93",
+    "tarball": "http://registry.npmjs.org/immutable/-/immutable-3.0.2.tgz"
+  },
+  "_from": ".",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "leebyron",
+    "email": "lee@leebyron.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "leebyron",
+      "email": "lee@leebyron.com"
+    }
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.5"
+  }
+}

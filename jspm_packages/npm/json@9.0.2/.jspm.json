@@ -1,0 +1,103 @@
+{
+  "name": "json",
+  "description": "a 'json' command for massaging and processing JSON on the command line",
+  "version": "9.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentm/json.git"
+  },
+  "author": {
+    "name": "Trent Mick",
+    "email": "trentm@gmail.com",
+    "url": "http://trentm.com"
+  },
+  "main": "./lib/json.js",
+  "bin": {
+    "json": "./lib/json.js"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "0": "node >=0.6.0"
+  },
+  "keywords": {
+    "0": "json",
+    "1": "jsontool",
+    "2": "filter",
+    "3": "command",
+    "4": "shell"
+  },
+  "devDependencies": {
+    "uglify-js": "1.1.x",
+    "nodeunit": "0.8.x",
+    "ansidiff": "1.0",
+    "ben": "0.0.x",
+    "async": "0.1.22",
+    "semver": "1.1.0"
+  },
+  "man": {
+    "0": "/Users/trentm/.npm/json/9.0.2/package/man/man1/json.1"
+  },
+  "contributors": {
+    "0": {
+      "name": "Trent Mick",
+      "email": "trentm@gmail.com",
+      "url": "http://trentm.com"
+    },
+    "1": {
+      "name": "Yaniv Aknin",
+      "url": "https://github.com/yaniv-aknin"
+    },
+    "2": {
+      "name": "Fred Kuo",
+      "url": "https://github.com/fkuo"
+    },
+    "3": {
+      "name": "Bill Pijewski",
+      "url": "https://github.com/pijewski"
+    },
+    "4": {
+      "name": "Isaac Schlueter",
+      "url": "https://github.com/isaacs"
+    },
+    "5": {
+      "name": "Andrew O'Brien",
+      "url": "https://github.com/AndrewO"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/trentm/json/issues"
+  },
+  "homepage": "https://github.com/trentm/json",
+  "_id": "json@9.0.2",
+  "_shasum": "4f735ac953810eb5949e6bf9e9463901fd5406f4",
+  "_from": ".",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "trentm",
+    "email": "trentm@gmail.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "zpoley",
+      "email": "zpoley@gmail.com"
+    },
+    "1": {
+      "name": "trentm",
+      "email": "trentm@gmail.com"
+    }
+  },
+  "dist": {
+    "shasum": "4f735ac953810eb5949e6bf9e9463901fd5406f4",
+    "tarball": "http://registry.npmjs.org/json/-/json-9.0.2.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.5"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "sha.js",
+  "description": "streaming sha1 hash in pure javascript",
+  "version": "2.2.6",
+  "homepage": "https://github.com/dominictarr/sha.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/sha.js.git"
+  },
+  "devDependencies": {
+    "buffer": "~2.3.2",
+    "typedarray": "0.0.6",
+    "tape": "~2.3.2"
+  },
+  "bin": {
+    "sha.js": "./bin.js"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done;"
+  },
+  "author": {
+    "name": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "dominictarr.com"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test/{vectors,write,hash}.js",
+    "browsers": {
+      "0": "ie/8..latest",
+      "1": "firefox/17..latest",
+      "2": "firefox/nightly",
+      "3": "chrome/22..latest",
+      "4": "chrome/canary",
+      "5": "opera/12..latest",
+      "6": "opera/next",
+      "7": "safari/5.1..latest",
+      "8": "ipad/6.0..latest",
+      "9": "iphone/6.0..latest",
+      "10": "android-browser/4.2..latest"
+    }
+  },
+  "gitHead": "f867e611f54d4dac371e0b247d72978ba26fca82",
+  "bugs": {
+    "url": "https://github.com/dominictarr/sha.js/issues"
+  },
+  "_id": "sha.js@2.2.6",
+  "_shasum": "17ddeddc5f722fb66501658895461977867315ba",
+  "_from": ".",
+  "_npmVersion": "1.4.26",
+  "_npmUser": {
+    "name": "dominictarr",
+    "email": "dominic.tarr@gmail.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "dominictarr",
+      "email": "dominic.tarr@gmail.com"
+    }
+  },
+  "dist": {
+    "shasum": "17ddeddc5f722fb66501658895461977867315ba",
+    "tarball": "http://registry.npmjs.org/sha.js/-/sha.js-2.2.6.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.5",
+    "json": "*"
+  }
+}

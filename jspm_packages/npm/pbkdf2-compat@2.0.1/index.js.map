@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["index.src.js"],"names":["crypto","require","exportFn","exported","module","exports","pbkdf2","pbkdf2Sync","__pbkdf2Export"],"mappings":";AACA,GAAIA,QAASC,QAAQ,qCACjBC,SAAWD,QAAQ,YACnBE,SAAWD,SAASF,OACxBI,QAAOC,SACLC,OAAQH,SAASG,OACjBC,WAAYJ,SAASI,WACrBC,eAAgBN"}

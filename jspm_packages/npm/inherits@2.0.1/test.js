@@ -1,0 +1,3 @@
+/* */
+function test(t){assert(t.constructor===Child),assert(t.constructor.super_===Parent),assert(Object.getPrototypeOf(t)===Child.prototype),assert(Object.getPrototypeOf(Object.getPrototypeOf(t))===Parent.prototype),assert(t instanceof Child),assert(t instanceof Parent)}function Child(){Parent.call(this),test(this)}function Parent(){}var inherits=require("./inherits"),assert=require("github:jspm/nodelibs@0.0.5/assert");inherits(Child,Parent);var c=new Child;test(c),console.log("ok");
+//# sourceMappingURL=test.js.map
